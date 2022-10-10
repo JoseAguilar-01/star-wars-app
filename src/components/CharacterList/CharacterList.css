@@ -1,0 +1,45 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_prev, .button_next {
+    margin: 0 10px;
+    width: 75px;
+    height: 35px;
+    background-color: rgb(200, 213, 213);
+    transition-property: all;
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+
+.button_next:hover, .button_prev:hover {
+    background-color: rgb(195, 207, 207);
+
+}
+
+.navbar {
+    padding: 20px;
+}
+.navbar_form {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+.form_input {
+    padding: 5px;
+    width: 25%
+}
+.form_button {
+    padding: 5px 30px;
+    cursor: pointer
+}
